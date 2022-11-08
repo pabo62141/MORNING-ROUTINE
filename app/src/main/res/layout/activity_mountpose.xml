@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/mount"/>
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="HOW TO DO THIS"
+            android:textColor="#686060"
+            android:textSize="25sp"
+            android:padding="7dp"
+            android:textStyle="bold"
+            android:background="@drawable/btn1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/mount"
+            android:textStyle="bold"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d0d0d0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+     <androidx.appcompat.widget.Toolbar
+         android:id="@+id/toolbar"
+         android:layout_width="match_parent"
+         android:layout_height="?attr/actionBarSize"
+         android:background="@color/purple_500"
+         android:textAlignment="textEnd"
+         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+         app:title="@string/app_name"
+         app:titleTextColor="#fff"
+         />
+       <ScrollView
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:scrollbars="none"
+           >
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <!--
+                           excercise linear layout
+                                     -->
+                 <LinearLayout
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="10dp"
+                     android:layout_marginTop="15dp"
+                     android:background="@drawable/backgroundcroop"
+                     android:orientation="vertical">
+
+
+
+                     <LinearLayout
+                         android:onClick="exercise"
+                         android:layout_width="fill_parent"
+                         android:layout_height="150dp"
+                         android:gravity="center"
+                         android:orientation="horizontal"
+                         tools:ignore="UsingOnClickInXml">
+
+                         <!--
+                                              for the text
+                                              -->
+                         <LinearLayout
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1.0"
+                             android:orientation="vertical"
+                             >
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:fontFamily="monospace"
+                                 android:padding="5dp"
+                                 android:text="EXCERCISE"
+                                 android:textSize="20dp"
+                                 android:textColor="#ff000000"
+                                 android:textStyle="bold"
+                                 />
+                             <TextView
+                                 android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:fontFamily="serif"
+                                 android:padding="5dp"
+                                 android:textSize="20dp"
+                                 android:text="everyday:45 MINS"
+                                 android:textStyle="bold"
+                                 android:textColor="#ffff5732"
+                                 />
+                         </LinearLayout>
+                         <!--
+                     for eccercise gif
+                     -->
+                         <LinearLayout
+                             android:layout_width="fill_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="2.0"
+
+
+
+
+                             >
+                             <pl.droidsonroids.gif.GifImageView
+                                 android:layout_width="fill_parent"
+                                 android:layout_height="wrap_content"
+                                 android:src="@drawable/exersice_7"
+                                 />
+
+                         </LinearLayout>
+                         <!--
+                     for the arrow
+                     -->
+                         <LinearLayout
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="0.0"
+                             >
+                             <ImageView
+                                 android:layout_width="fill_parent"
+                                 android:layout_height="wrap_content"
+                                 android:padding="10dp"
+                                 android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                                 />
+
+                         </LinearLayout>
+                     </LinearLayout >
+                     <!--
+                     get start button start excercise
+                     -->
+                     <Button
+                         android:id="@+id/startexc"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="10dp"
+                         android:background="@drawable/btn"
+                         android:text="GET START"
+                         android:textColor="#fff"
+                         android:textStyle="bold" />
+                 </LinearLayout>
+                <!--
+                     yoga linear layout
+                     -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/backgroundcroop"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:onClick="yoga"
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <!--
+                                             layout for text
+                                             -->
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="5dp"
+                                android:text="YOGA"
+                                android:textSize="20dp"
+                                android:textColor="#ff000000"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="everyday:30 MINS"
+                                android:textStyle="bold"
+                                android:textColor="#ffff5732"
+                                />
+                        </LinearLayout>
+                        <!--
+                     layout for yoga gif
+                     -->
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+
+
+
+
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/yoga"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.0"
+                            >
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout >
+                    <Button
+                        android:id="@+id/startyog"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/btn"
+                        android:text="GET START"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+       </ScrollView>
+
+
+</LinearLayout>

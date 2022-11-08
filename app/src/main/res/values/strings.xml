@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Morning routine</string>
+    <string name="jacks">Perform vertical jumps by bending your hips, knees,
+    and ankles until you lower to a quarter-squat position.
+    Push into the ground and lift your body with an explosive movement.
+    Use an arm swing movement to engage your upper body.
+        While keeping your core engaged, land softly on the balls of your feet.</string>
+    <string name="leg">Lay down with your back flat on the floor, feet straight out and together and your hands on your side.
+    While keep your legs as straight as you can lift your feet up in the air between 6-12 inches.
+    You can either hold for designated period of time or you can raise them up and then lower them right back down.
+        This completes one repetition.</string>
+    <string name="heel">Lay down with your back on the ground and your knees bent and pointed towards the ceiling.
+    With your arms on your side raise your shoulders slightly off the ground.
+    Using your abs rotate your right hand down to your right foot and then back up.
+    Then do the same thing with your left hand.
+        Alternate back and forth for the desired amount of repetitions.</string>
+    <string name="mount">Assume a standard push-up position with arms straight. Hands should be placed below shoulders but just outside of shoulder-width.
+    Your body should now form a straight line from your heels to your head. This is the starting position.
+    Begin exercise by lifting your right foot off the ground and bringing your knee as close to your chest as possible. Hold for a moment, then touch foot to the ground. Next, return foot to starting position.
+        Repeat with opposite leg. Alternate back and forth for 30 seconds or more.</string>
+    <string name="bicycle"> Lie on your back on an exercise mat, keeping your lower back pressed against the mat. Gently support your neck by bracing your hands against the back of your head.
+    Lift your upper body off the mat while bringing your knees to up above your torso and keeping your legs parallel to the floor.
+    Extend your right leg straight out without letting it touch the floor. Keep your left knee bent and your left leg parallel to the floor. Using your abdominals, crunch upwards and sideways, extending your right elbow to your left knee.
+    Alternating elbows and knees, now extend your left leg while bringing your right knee toward your torso (similar to riding a bicycle), and crunch sideways so that your left elbow extends toward your right knee.
+        Continue to repeat, alternating knees and elbows.</string>
+    <string name="crunch">Lie down on the floor. Your back should be flat and your knees bent at an approximately 60 degree angle.
+    Keeping your feet flat on the floor, cross your wrists over your chest. This is the starting position.
+    Bring your upper body up so that your shoulder blades are just off the floor and your body forms a C-shape. Exhale as you do so and hold the contraction for a second.
+    Slowly move down to the starting position. Exhale as you do so.
+        Repeat for the desired number of reps.</string>
+
+    <string name="pushup">Begin with your chest and stomach flat on the floor.
+    Exhale as you push from your hands and heels, bringing your torso, chest, and thighs off the ground.
+    Pause for a second in the plank position — keep your core engaged.
+        Inhale as you slowly lower back to your starting position.</string>
+    <string name="squat">Stand straight up with your feet shoulders width apart.
+    While bending at the knees, push your hips out and bend down. Picture yourself sitting on a chair.
+    Once your hips have become lined up with your knees, return back to starting position.
+        Repeat exercise as desired.</string>
+
+    <string name="yoga1">Stand with your toes together and heels slightly apart hang your arms besides the torso.
+    Spread your toes and place your weight evenly on your feet. Firm your thigh muscles while rotating them inwards Relax your shoulders and roll them back and down.
+    As you inhale, elongate your torso and when you exhale release your shoulder blades away from your head. You may also put your hands in prayer position in front of your chest, or rest them by your sides.
+        Take long, slow, deep breaths in</string>
+
+</resources>
